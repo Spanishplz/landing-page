@@ -80,9 +80,10 @@ button.signup:hover{
 
 .photo-group {
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    gap: 20px;
+    justify-content: center; 
     align-content: flex-start;
+    align-items: space-between;
     flex-wrap: wrap;
 }
 .photo-group figure{
@@ -100,7 +101,7 @@ button.signup:hover{
 }
 
 .photo-group figcaption {
-    max-width: 300px;
+    max-width: 200px;
     text-align: center;
     margin-top: 10px;
 }
