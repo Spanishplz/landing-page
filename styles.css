@@ -82,32 +82,49 @@ button.signup:hover{
     display: flex;
     gap: 50px;
     justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 .photo-group figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 0;
 }
 .photo-group figure img {
+    height: 300px;
+    witdh: auto;
     min-width: 100px;
-    width: 100%;
+    max-width: 230px;
 }
 
 .photo-group figcaption {
+    max-width: 300px;
     text-align: center;
     margin-top: 10px;
 }
 
+.phrase {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+}
+
 .phrase figure {
+    padding: 50px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+
 }
 figure p {
     min-width: 400px;
-    flex: 1 1 auto;
-
+    font-size: 25px;
 }
 
 .phrase figcaption {
-    align-self: flex-end;
+    font-size: 23px;
 }
 .signup-div-wrapper {
     background-color: blue;
