@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
 }
 .header {
@@ -40,6 +40,13 @@ nav ul {
     align-items: center;
     gap: 100px;
 }
+
+.image-div h1{
+    color: white;;
+    font-size: 45px;
+    font-weight: 700;
+}
+
 .presentation {
     display: flex;
     flex-direction: column;
@@ -69,6 +76,7 @@ button.signup:hover{
 
 
 .random {
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -81,29 +89,33 @@ button.signup:hover{
 .photo-group {
     display: flex;
     gap: 20px;
-    justify-content: center; 
-    align-content: flex-start;
-    align-items: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .photo-group figure{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex: 1 1 0;
+    flex: 1 0 auto;
 }
 .photo-group figure img {
     height: 300px;
-    witdh: auto;
+    width: 209px;
     min-width: 100px;
     max-width: 230px;
+    border-radius: 10px;
+    border: 5px solid black;
+
 }
 
 .photo-group figcaption {
     max-width: 200px;
     text-align: center;
     margin-top: 10px;
+    color: purple;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .phrase {
