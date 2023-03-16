@@ -15,6 +15,10 @@ h1 {
     font-size: 45px;
     font-weight: 700;
 }
+
+h2 {
+    font-size: 30px;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -65,16 +69,24 @@ nav ul {
 button.signup {
     flex: 0 0 auto;
     padding: 5px 20px;
+    border-width: px;
+    border-style: solid;
     border-radius: 10px;
+    border-color: green;;
     background-color: pink;
 }
 button.signup:hover{
     color: blue;
-    background-color: red;
+    background-color:white;
+}
+/* hero */
+.hero {
+    background-image: url("./images/hero.jpg");
 }
 
-
-
+.hero-content {
+    height: 100px;
+}
 .random {
     padding: 50px 0px;
     display: flex;
@@ -151,7 +163,7 @@ figure p {
 }
 .signup-div {
     padding: 30px 60px;
-    background-color: red;
+    background-color: lightblue;
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -161,6 +173,11 @@ figure p {
 
 .action {
     flex: 0 1 400px;
+}
+
+.signup.action {
+    background-color: lightblue;
+
 }
 
 .footer {
