@@ -54,6 +54,7 @@ nav ul {
 .presentation {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
     flex: 1 1 400px;
@@ -81,12 +82,38 @@ button.signup:hover{
 }
 /* hero */
 .hero {
-    background-image: url("./images/hero.jpg");
+    /* background-image: url("./images/hero.jpg"); */
+    /* position: absolute; */
+    background-image: url("./images/hero2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
-.hero-content {
-    height: 100px;
+.hero-nav {
+    font-size: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
+.hero-menu {
+    display: flex;
+    justify-content: right;
+}
+
+.hero-awesome {
+    
+}
+.presentation-hero {
+    background-color: red;
+    max-width: 400px;
+    justify-self: center;
+
+}
+
 .random {
     padding: 50px 0px;
     display: flex;
