@@ -133,11 +133,14 @@ button.signup:hover{
 }
 figure p {
     min-width: 400px;
-    font-size: 25px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .phrase figcaption {
     font-size: 23px;
+    font-size: 30px;
+    font-weight: 300;
 }
 .signup-div-wrapper {
     background-color: blue;
