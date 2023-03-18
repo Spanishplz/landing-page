@@ -129,9 +129,9 @@ button.signup:hover{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(255,165,0,0.35);
-
+    background-color: rgba(255,165,0,0.55);
     gap: 30px;
+
 
 }
 
@@ -171,6 +171,7 @@ button.signup:hover{
     display: flex;
     justify-content: flex-end;
     flex-direction:column;
+    background-color: rgba(160,30,186,0.33)
 }
 
 .phrase figure {
