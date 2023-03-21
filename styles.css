@@ -14,6 +14,7 @@ body {
 h1 {
     font-size: 45px;
     font-weight: 700;
+    color: #5A249B;
 }
 
 h2 {
@@ -22,15 +23,15 @@ h2 {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   align-items: center;
 }
 .logo {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 200px;
     height: auto;
 }
 
-nav {
+av {
 }
 
 nav ul {
@@ -74,12 +75,18 @@ button.signup {
     border-width: px;
     border-style: solid;
     border-radius: 10px;
-    border-color: green;;
-    background-color: pink;
+    
+    border-color: blue;
+    color: white;
+    background-color: blue;
+
+
+
 }
 button.signup:hover{
     color: blue;
     background-color:white;
+    border-color: blue;
 }
 /* hero */
 .hero {
@@ -94,11 +101,16 @@ button.signup:hover{
 
 .hero-nav {
     font-size: 20px;
-    height: 280px;
+    /* height: 280px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 .
+}
+.hero-nav p{
+    font-size: 26px;
+    color: #0006ff;
+
 }
 .hero-menu {
     font-size: 20px;
@@ -113,7 +125,10 @@ button.signup:hover{
 .presentation-hero {
     /* margin-top: 100px; */
     /* margin-bottom: 100px; */
-    background-color: red;
+    /* background-color: red; */
+    /* background-color: rgba(160,30,186,0.66); */
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
     max-width: 400px;
     display: flex;
     flex-direction: column;
@@ -122,6 +137,9 @@ button.signup:hover{
 
 }
 
+.presentation-hero button {
+    align-self: flex-end;
+}
 .random {
     border-top: 1px solid black;
     padding: 50px 0px;
@@ -137,8 +155,9 @@ button.signup:hover{
 
 .photo-group {
     display: flex;
-    gap: 50px;
+    gap: 10px;
     justify-content: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 .photo-group figure{
@@ -154,10 +173,19 @@ button.signup:hover{
     min-width: 100px;
     max-width: 230px;
     border-radius: 10px;
-    border: 5px solid black;
-
+    /* border: 5px solid rgba(255,255,255,0.5); */
+    border: 5px solid rgb(225 16 16 / 75%);
+    /* rgb(16 239 209) celeste */
+    /* rgb(225 16 16 / 75%) rojo */
+    background-color: rgb(225 16 16 / 75%);
+    /* background bird colors */
+    /* rgb(252,213,147) */
+    /* #fcd593 */
 }
 
+.photo-group figure img:hover {
+    border: 5px solid rgb(16 239 209);
+}
 .photo-group figcaption {
     max-width: 200px;
     text-align: center;
@@ -185,6 +213,7 @@ figure p {
     min-width: 400px;
     font-size: 30px;
     font-style: italic;
+    color: #edae34;
 }
 
 .phrase figcaption {
@@ -224,3 +253,8 @@ figure p {
     justify-content: center;
     align-items: center;
 }
+
+
+/* image border color */
+/* rgb(16 239 209) celeste *//
+* rgb(225 16 16 / 75%) rojo */
