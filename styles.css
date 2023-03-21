@@ -185,7 +185,8 @@ button.signup:hover{
 }
 
 .photo-group figure img:hover {
-    border: 5px solid rgb(16 239 209);
+    border: 5px solid purple;
+    /* border: 5px solid rgb(16 239 209); */
 }
 .photo-group figcaption {
     max-width: 200px;
@@ -268,6 +269,8 @@ figure p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 
