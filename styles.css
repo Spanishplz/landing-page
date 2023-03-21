@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: grey;
+    font-family: Montserrat, sans-serif;
 
 }
 .header-padding {
@@ -258,6 +259,7 @@ figure p {
     border: #edae34;
     background-color: #edae34;
     color: rgb(160 30 186);
+
 
 }
 
